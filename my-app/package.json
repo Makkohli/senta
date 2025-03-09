@@ -21,5 +21,11 @@
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
     "tailwindcss": "^4"
+  },
+  "eslintConfig": {
+    "extends": "next/core-web-vitals",
+    "rules": {
+      "react/no-unescaped-entities": "off"
+    }
   }
 }
